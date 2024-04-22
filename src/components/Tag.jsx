@@ -1,17 +1,11 @@
-import Badge from "react-bootstrap/Badge";
-import Button from "react-bootstrap/Button";
+import { Badge } from "react-bootstrap";
 
-function TagsPerro() {
+const Tags = ({ text, backgroundColor }) => {
   return (
-    <div>
-      <h1>
-        Example heading
-        <Badge bg="secondary" as={Button}>
-          New
-        </Badge>
-      </h1>
-    </div>
+    <Badge bg={backgroundColor} style={{ marginRight: "5px" }}>
+      {text}
+    </Badge>
   );
-}
+};
 
-export default TagsPerro;
+export default Tags;

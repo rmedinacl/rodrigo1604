@@ -1,14 +1,12 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
 
-const Footer = (props) => {
+const Footer = ({ footerText }) => {
   return (
     <footer>
       <Container>
         <Row>
           <Col>
-            <p>{props.footerText}</p>
+            <p>{footerText}</p>
           </Col>
         </Row>
       </Container>

@@ -2,32 +2,36 @@ const perros = [
   {
     id: 1,
     name: "Panzitas",
-    description: "Luna es una perrita muy juguetona y cariñosa.",
-    image: "https://images.dog.ceo/breeds/terrier-norwich/n02094258_1003.jpg",
+    description: "Panzitas es una perrito muy juguetona y cariñosa.",
+    image:
+      "https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     colorButton: "success",
     textButton: "Adoptar",
   },
   {
     id: 2,
     name: "Boobby",
-    description: "Luna es una perrita muy juguetona y cariñosa.",
-    image: "https://images.dog.ceo/breeds/terrier-norwich/n02094258_1003.jpg",
-    colorButton: "success",
-    textButton: "Adoptar",
+    description: "Es un pastor alemán muy juguetón y cariñoso.",
+    image:
+      "https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    colorButton: "danger",
+    textButton: "Adoptado",
   },
   {
     id: 3,
     name: "Chumaco",
-    description: "Luna es una perrita muy juguetona y cariñosa.",
-    image: "https://images.dog.ceo/breeds/terrier-norwich/n02094258_1003.jpg",
-    colorButton: "success",
-    textButton: "Adoptar",
+    description: "Chumaco es un super perro",
+    image:
+      "https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    colorButton: "warning",
+    textButton: "En Cuarentena",
   },
   {
     id: 4,
     name: "Casimiro",
-    description: "Luna es una perrita muy juguetona y cariñosa.",
-    image: "https://images.dog.ceo/breeds/terrier-norwich/n02094258_1003.jpg",
+    description: "Casimiro, lo mejor para mascotas",
+    image:
+      "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     colorButton: "success",
     textButton: "Adoptar",
   },
