@@ -36,12 +36,11 @@
 .card {
   padding: 2em;
 }
+.card text {
+  margin-top: 0;
+  color: #000;
+}
 
 .read-the-docs {
   color: #888;
-}
-
-h1 {
-  font-size: 2em;
-  color: #000;
 }
