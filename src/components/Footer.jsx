@@ -7,6 +7,9 @@ const Footer = ({ footerText }) => {
         <Row>
           <Col>
             <p>{footerText}</p>
+            <a href="https:www.perritos.com" target="_black">
+              Más información en perritos.com
+            </a>
           </Col>
         </Row>
       </Container>
